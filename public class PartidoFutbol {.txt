@@ -1,0 +1,20 @@
+public class PartidoFutbol {
+    public static void main(String[] args) {
+        String equipo1 = "Argentina";
+        String equipo2 = "Francia";
+
+        int goles1 = (int)(Math.random() * 6); // goles entre 0 y 5
+        int goles2 = (int)(Math.random() * 6);
+
+        System.out.println("Partido: " + equipo1 + " vs " + equipo2);
+        System.out.println("Resultado: " + goles1 + " - " + goles2);
+
+        if (goles1 > goles2) {
+            System.out.println("¡Ganó " + equipo1 + "!");
+        } else if (goles2 > goles1) {
+            System.out.println("¡Ganó " + equipo2 + "!");
+        } else {
+            System.out.println("¡Empate!");
+        }
+    }
+}
