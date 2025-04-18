@@ -1,6 +1,6 @@
 public class PartidoFutbol {
     public static void main(String[] args) {
-        String equipo1 = "Argentina";
+        String equipo1 = "Brasil";
         String equipo2 = "Francia";
 
         int goles1 = (int)(Math.random() * 6); // goles entre 0 y 5
